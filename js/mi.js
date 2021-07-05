@@ -19,13 +19,27 @@ $(document).ready( function(){
 
     function getDatos(url){
         console.log(url);
+
+        //var continent = $("#continente");
+
         $.getJSON( url, function( data ) {
             var items = [];
             console.log(data);
-            
+           // continent.text(data['continent']);
 
-            // $.each( data, function( key, val ) {
-            //   items.push( "<li id='" + key + "'>" + val + "</li>" );
+            $("#continente").text(data['continent']);
+            $("#pais").text(data['country']);
+            $("#ciudad").text(data['city']);
+            $("#capital").text(data['country_capital']);
+            $("#codigo").text(data['country_code']);
+            $("#bandera").attr("src", data['country_flag']);
+            $("#prefijo").text(data['country_phone']);
+            $("#moneda").text(data['currency']);
+            $("#isp").text(data['isp']);
+            $("#region").text(data['region']);
+            $("#organizacion").text(data['org']);
+            $("#zona_horaria").text(data['timezone_name']);
+
         });
     }
 
