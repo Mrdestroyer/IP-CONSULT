@@ -2,12 +2,12 @@
 $(document).ready( function(){
     console.log("Hola");
 
-    const url_api = "http://ipwhois.app/json/";
+    const url_api = "https://ipwhois.app/json/";
     const btn_consulta = $("#btn_consulta");
     const input_ip = $("#ip");
 
     btn_consulta.click( function(){
-        var direccion = input_ip.val();
+        var direccion = input_ip.val().trim();
         
         var correcta = validaDireccionIp(direccion);
         if(correcta){
@@ -44,7 +44,6 @@ $(document).ready( function(){
     }
 
 });
-
 
 function validaDireccionIp(direccion){
 
