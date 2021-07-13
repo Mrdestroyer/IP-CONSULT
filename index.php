@@ -12,10 +12,10 @@
     <nav class="navbar navbar-primary bg-primary">
         <div class="container-fluid">
           <a class="navbar-brand" style="color: black;">Navbar</a>
-          <form class="d-flex">
+          <!--<form class="d-flex">
             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
+          </form>-->
         </div>
       </nav>
     
@@ -29,7 +29,7 @@
 
       <div class="container mt-2">
         <div class="row">
-
+            
           <div class="col">
             <div class="form-control">
               <label for="ip" name="ip" >Direccion IP</label>
@@ -42,13 +42,12 @@
 
         <div id="contenido" class="mt-2">
           <h2>Data</h2>
-
           
           <table class="table">
             <thead>
               <tr>
                 <th scope="col">#</th>
-                <th scope="col">Valor</th>
+                <th scope="col"></th>
                 
               </tr>
             </thead>
@@ -57,27 +56,27 @@
 
               <tr>
                 <th scope="row">CONTINENTE:</th>
-                <td id="continente">Mark</td>
+                <td id="continente"></td>
               </tr>
 
               <tr>
                 <th scope="row">PAIS:</th>
-                <td id="pais">Mark</td>
+                <td id="pais"></td>
               </tr>
 
               <tr>
                 <th scope="row">CIUDAD:</th>
-                <td id="ciudad">Mark</td>
+                <td id="ciudad"></td>
               </tr>
 
               <tr>
                 <th scope="row">CAPITAL:</th>
-                <td id="capital">Mark</td>
+                <td id="capital"></td>
               </tr>
 
               <tr>
                 <th scope="row">CODIGO:</th>
-                <td id="codigo">Mark</td>
+                <td id="codigo"></td>
               </tr>
 
               <tr>
@@ -87,32 +86,32 @@
 
               <tr>
                 <th scope="row">PREFIJO:</th>
-                <td id="prefijo">Mark</td>
+                <td id="prefijo"></td>
               </tr>
 
               <tr>
                 <th scope="row">MONEDA:</th>
-                <td id="moneda">Mark</td>
+                <td id="moneda"></td>
               </tr>
       
               <tr>
                 <th scope="row">ISP:</th>
-                <td  id="isp">Mark</td>
+                <td  id="isp"></td>
               </tr>
 
               <tr>
                 <th scope="row">REGION:</th>
-                <td  id="region">Mark</td>
+                <td  id="region"></td>
               </tr>
 
               <tr>
                 <th scope="row">ORGANIZACION:</th>
-                <td  id="organizacion">Mark</td>
+                <td  id="organizacion"></td>
               </tr>
 
               <tr>
                 <th scope="row">ZONA HORARIA:</th>
-                <td  id="zona_horaria">Mark</td>
+                <td  id="zona_horaria"></td>
               </tr>
               
             </tbody>
